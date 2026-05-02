@@ -1,0 +1,27 @@
+# .gitignore
+
+# .NET
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+appsettings.Development.json
+
+# Node / Vue
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Project specific
+Magnadata.API/bin/
+Magnadata.API/obj/
