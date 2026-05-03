@@ -8,7 +8,7 @@ Consiste em um aplicativo completo de gestão de tarefas (To-Do List) com Backen
 - `/Magnadata.API`: Backend desenvolvido em .NET 8 utilizando Web API, Entity Framework Core e MySQL.
 - `/src`: Frontend desenvolvido em Vue.js 3 com Vite e Axios.
 - `database.sql`: Script para criação do banco de dados MySQL.
-- `EXPLICACAO.md`: Documento detalhado explicando o código para a apresentação.
+
 
 ## Pré-requisitos
 
@@ -40,4 +40,4 @@ Execute o conteúdo de `database.sql` no seu servidor MySQL.
    ```
 
 ---
-Desenvolvido por [Seu Nome]
+Desenvolvido por [brayan Ferreira da cruz ]
