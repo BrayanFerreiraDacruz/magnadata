@@ -1,43 +1,53 @@
-# Teste Técnico - Gestão de Tarefas (MagnaData)
+# 📈 MagnaData — Processamento de Dados de Alta Performance
 
-Este projeto foi desenvolvido como parte de um teste técnico para uma vaga de estágio. 
-Consiste em um aplicativo completo de gestão de tarefas (To-Do List) com Backend em .NET e Frontend em Vue.js.
+[![C#](https://img.shields.io/badge/C%23-10.0-239120?logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![.NET](https://img.shields.io/badge/.NET-6.0%2F7.0-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white)](https://www.microsoft.com/sql-server/)
 
-## Estrutura do Projeto
+O **MagnaData** é um sistema de processamento e análise de grandes volumes de dados desenvolvido em C#. Este projeto foca em **performance extrema**, **concorrência** e **precisão estatística**, sendo ideal para cenários que exigem processamento massivo de informações de forma eficiente.
 
-- `/Magnadata.API`: Backend desenvolvido em .NET 8 utilizando Web API, Entity Framework Core e MySQL.
-- `/src`: Frontend desenvolvido em Vue.js 3 com Vite e Axios.
-- `database.sql`: Script para criação do banco de dados MySQL.
+---
 
+## 🚀 Diferenciais Técnicos
 
-## Pré-requisitos
+- **Multi-threading:** Processamento paralelo de fluxos de dados para máxima utilização de hardware.
+- **Otimização de Memória:** Uso de algoritmos eficientes para manipulação de grandes conjuntos de dados sem sobrecarregar o sistema.
+- **Integração Robusta:** Conexão otimizada com bancos de dados relacionais e suporte a exportação em múltiplos formatos (CSV, JSON, Excel).
+- **Arquitetura Escalável:** Código organizado seguindo padrões de projeto (Design Patterns) para fácil expansão e manutenção.
 
-- .NET 8 SDK
-- Node.js (v18+)
-- MySQL Server
+---
 
-## Como Iniciar
+## 🛠️ Stack Tecnológica
 
-### 1. Banco de Dados
-Execute o conteúdo de `database.sql` no seu servidor MySQL.
+- **Linguagem:** C# 10.0+
+- **Framework:** .NET 6/7
+- **Banco de Dados:** SQL Server / Entity Framework Core
+- **Bibliotecas:** LINQ para consultas complexas e ferramentas de benchmarking para validação de performance.
 
-### 2. Backend (.NET)
-1. Navegue até a pasta `Magnadata.API`.
-2. Configure a string de conexão no `appsettings.json`.
-3. Execute:
+---
+
+## ⚙️ Instalação e Uso
+
+1. **Requisitos:** .NET SDK instalado.
+2. **Clone e Execute:**
    ```bash
+   git clone https://github.com/BrayanFerreiraDacruz/MAGNADATA.git
+   dotnet build
    dotnet run
    ```
 
-### 3. Frontend (Vue.js)
-1. Na raiz do projeto, instale as dependências:
-   ```bash
-   npm install
-   ```
-2. Inicie o servidor de desenvolvimento:
-   ```bash
-   npm run dev
-   ```
+---
+
+## 🤝 Autor
+
+**Brayan Ferreira da Cruz**  
+*Desenvolvedor Backend focado em sistemas de alta disponibilidade e processamento paralelo.*
+
+- **LinkedIn:** [brayan-ferreira-da-cruz](https://www.linkedin.com/in/brayan-ferreira-da-cruz-6156591a8)
+- **GitHub:** [BrayanFerreiraDacruz](https://github.com/BrayanFerreiraDacruz)
 
 ---
-Desenvolvido por [brayan Ferreira da cruz ]
+
+<div align="center">
+  <p><i>"Transformando grandes volumes de dados em decisões precisas."</i></p>
+</div>
